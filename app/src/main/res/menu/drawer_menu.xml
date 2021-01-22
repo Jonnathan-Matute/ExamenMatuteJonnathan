@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/contactFragment2"
-        android:title="Contactanos" />
+        android:id="@+id/agendaFragment"
+        android:title="Agenda" />
 
 
     <item
-        android:id="@+id/ubiFragment"
-        android:title="Ubicación" />
+        android:id="@+id/acercaDeFragment"
+        android:title="Acerca de" />
 </menu>

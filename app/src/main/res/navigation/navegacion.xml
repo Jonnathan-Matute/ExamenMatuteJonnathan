@@ -10,12 +10,9 @@
         <action
             android:id="@+id/action_loginFragment_to_registroFragment"
             app:destination="@id/registroFragment" />
-        <argument
-            android:name="nombre"
-            app:argType="string" />
-        <argument
-            android:name="contrasena"
-            app:argType="string" />
+        <action
+            android:id="@+id/action_loginFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
     </fragment>
     <fragment
         android:id="@+id/registroFragment"
@@ -25,4 +22,16 @@
             android:id="@+id/action_registroFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="ec.edu.ups.examenmatutejonnathan.AgendaFragment"
+        android:label="AgendaFragment" />
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="ec.edu.ups.examenmatutejonnathan.AcercaDeFragment"
+        android:label="AcercaDeFragment" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="ec.edu.ups.examenmatutejonnathan.InicioFragment"
+        android:label="InicioFragment" />
 </navigation>
